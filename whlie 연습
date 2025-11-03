@@ -1,0 +1,21 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main()
+{
+	// 1~100 더하기 
+	int sum = 0;
+	int i = 0;
+	while (i<100)
+	{
+		sum += ++i;
+		printf("sum: %d, i %d \n", sum, i);
+		
+	}
+
+	//printf("sum: %d \n", sum);
+
+
+	return 0;
+
+}
